@@ -141,6 +141,7 @@ Using your package manager, you can install Node.js, Python, and Git. Here are s
 
 <details>
 <summary>Install with <code>apt</code> (Ubuntu, Debian)</summary>
+  
 ```bash
 sudo apt install nodejs
 sudo apt install python3
@@ -151,6 +152,7 @@ sudo apt install git
 
 <details>
 <summary>Install with <code>dnf</code> (Fedora)</summary>
+  
 ```bash
 sudo dnf install nodejs
 sudo dnf install python3
@@ -160,6 +162,7 @@ sudo dnf install git
 
 <details>
 <summary>Install with <code>pacman</code> (Arch)</summary>
+  
 ```bash
 sudo pacman -S nodejs
 sudo pacman -S python
@@ -169,6 +172,7 @@ sudo pacman -S git
 
 <details>
 <summary>Install with <code>zypper</code> (openSUSE)</summary>
+  
 ```bash
 sudo zypper install nodejs
 sudo zypper install python3
@@ -178,6 +182,7 @@ sudo zypper install git
 
 <details>
 <summary>Install with <code>yum</code> (CentOS, AmazonLinux)</summary>
+  
 ```bash
 sudo yum install nodejs
 sudo yum install python3
@@ -223,8 +228,7 @@ Once you have set up a GitHub account, you can proceed to [forking the repositor
 
 ## Fork the repository
 
-To get a copy of this repository, you will need to fork it. Click on the `Fork` button at the top right
-of [this page](https://github.com/aptos-labs/aptos-cad-workshop).
+To get a copy of this repository, you will need to fork it. Visit [this page](https://github.com/aptos-labs/aptos-cad-workshop/fork)
 
 ## Clone the repository
 
@@ -476,7 +480,7 @@ npm run dev
 - Add now to the public mint start date
 - Click `Create Collection` and approve the prompts.
 
-You will then get a collection address, and will need to set `fronte3nd/config.ts`, and fill in the `collection_id`
+You will then get a collection address, and will need to set `frontend/config.ts`, and fill in the `collection_id`
 
 ## Mint NFTs
 
@@ -544,3 +548,8 @@ Vercel website.
 - Then import the git repository from your account for `aptos-cad-workshop`.
 - You will need to configure the `root directory` to `workshop` and the `output directory` to `dist`.
 - You may need to copy the environment variables from the `.env` file to the Vercel project settings.
+
+### Expanding upon the workshop
+
+- You can add different stages for mints
+- You can build custom flows and animations when people mint NFTs
